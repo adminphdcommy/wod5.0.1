@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	
+</head>
+<body>
+
+<input type="button" value="+" onclick="plus()"> 
+<input type="button" value="-" onclick="minus()">
+<br><br>
+<input type="button" value="Red" onclick="red()">
+<input type="button" value="Yellow" onclick="yellow()">
+<input type="button" value="Green" onclick="green()">
+<input type="button" value="Reset" onclick="reset()">
+<br><br>
+<textarea id="addnew1" rows="5" cols="50">
+Add new paragraph in here
+</textarea>
+<input type="button" value="Add paragraph" onclick="addpara()">
+<input type="button" value="Delete Last paragraph" onclick="delpara()">
+
+
+<span id="output001"></span>
+<span id="output002"></span>
+
+<div id="div1">
+<h1 id="title" style="font-size:30px">Title of paragraph</h1>
+
+<p id="para1" style="">This is suppose to be a paragraph but it is not at the moment. Just read it continously for few second more then you will realise it become a paragraph d</p>
+
+</ul>
+</div>
+<hr>
+<div id="div2">
+<h1 id="title" style="font-size:30px">My to do List</h1>
+<textarea id="addtask1" rows="2" cols="50">
+Your next task
+</textarea>
+<input type="button" value="Add New Task" onclick="addtask()">
+<ul id="todolist">
+	
+
+</ul>
+</div>
+<hr>
+
+<div id="div3">
+<h2>Password matching</h2>
+Username: <input type="text" id="username" placeholder="enter a username">
+<br><br>
+Password: <input type="password" id="password" placeholder="enter a password">
+<br><br>
+confirm password: <input type="password" id="cpassword" placeholder="enter a password">
+
+
+<br><br>
+<button id="submit1" disabled>Submit</button><span id="pwcheck"></span>
+
+</div>
+
+
+
+<script type="text/javascript" language="javascript" src="script.js"></script>
+
+</body>
+</html>
+
